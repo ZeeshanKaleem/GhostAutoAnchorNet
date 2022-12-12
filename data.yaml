@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Bird', 'Drone', 'Helicopter', 'Plane']
+
+roboflow:
+  workspace: night-vision-mmcmp
+  project: mul
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/night-vision-mmcmp/mul/dataset/1
